@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QRideRTC - Sign In / Sign Up</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">QRideRTC</h1>
+    <div class="form-container">
+      <div class="form-toggle">
+        <button id="loginToggle" class="active">Login</button>
+        <button id="signupToggle">Sign Up</button>
+      </div>
+      <form id="loginForm" class="form">
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+      <form id="signupForm" class="form hidden">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
+
